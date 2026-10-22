@@ -2,4 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Colour tokens go here (task W1-07): see .superdesign/design-system.md on the experiment branch. */
+@layer base {
+  :root {
+    --background: 220 20% 98%;
+    --foreground: 220 26% 9%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 26% 9%;
+    --primary: 231 87% 56%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 20% 94%;
+    --secondary-foreground: 220 20% 25%;
+    --muted: 220 20% 94%;
+    --muted-foreground: 220 11% 48%;
+    --border: 220 18% 89%;
+    --success: 158 56% 39%;
+    --destructive: 358 75% 48%;
+  }
+}
